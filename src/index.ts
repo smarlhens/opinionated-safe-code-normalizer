@@ -39,7 +39,7 @@ export const addPublic: RulePatch = (file: SourceFile, transformArgs: Record<str
 export const main = async (): Promise<void> => {
   const argv = yargs(hideBin(process.argv)).argv;
   let workingDirectory = Reflect.get(argv, 'wd');
-  const lintFilePatterns = ['src/**/*.ts', 'src/**/*.html'];
+  const lintFilePatterns = ['src/**/*.ts'];
   const eslintConfig = 'src/.eslintrc.js';
   const ruleNormalizers: RuleNormalizer = {
     '@typescript-eslint/explicit-member-accessibility': addPublic,
