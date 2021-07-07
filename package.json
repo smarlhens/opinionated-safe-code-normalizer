@@ -1,6 +1,6 @@
 {
   "name": "opinionated-safe-code-normalizer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "TypeScript opinionated safe code normalizer using ts-morph & ESLint",
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -21,7 +21,7 @@
     "eslint",
     "ts-morph"
   ],
-  "author": "Samuel MARLHENS",
+  "author": "Samuel MARLHENS <samuel.marlhens@gmail.com> (https://smarlhens.github.io)",
   "license": "Apache-2.0",
   "dependencies": {
     "eslint": "7.30.0",
