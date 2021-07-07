@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "sourceMap": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "node",
+      "yargs",
+      "eslint"
+    ],
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "baseUrl": ".",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "opinionated-safe-code-normalizer",
+  "version": "0.0.0",
+  "description": "TypeScript opinionated safe code normalizer using ts-morph & ESLint",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "precommit": "lint-staged && npm run build",
+    "prepare": "husky install",
+    "prettier:check": "prettier --check ./**/*.ts",
+    "prettier:write": "prettier --write ./**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "oscn": "dist/index.js"
+  },
+  "keywords": [
+    "normalizer",
+    "autofixer",
+    "typscript",
+    "eslint",
+    "ts-morph"
+  ],
+  "author": "Samuel MARLHENS",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint": "7.30.0",
+    "ts-morph": "11.0.0",
+    "ts-node": "10.0.0",
+    "tslib": "2.3.0",
+    "yargs": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "7.2.14",
+    "@types/node": "16.0.0",
+    "@types/yargs": "17.0.2",
+    "husky": "7.0.1",
+    "lint-staged": "11.0.0",
+    "prettier": "2.3.2",
+    "typescript": "4.3.5"
+  }
+}
