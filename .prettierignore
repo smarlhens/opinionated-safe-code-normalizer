@@ -1,3 +1,4 @@
 # compiled output
 .husky/
-bin/
+dist/
+node_modules/
