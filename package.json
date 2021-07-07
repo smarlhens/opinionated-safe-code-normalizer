@@ -1,6 +1,6 @@
 {
   "name": "@smarlhens/opinionated-safe-code-normalizer",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "TypeScript opinionated safe code normalizer using ts-morph & ESLint",
   "scripts": {
     "dev": "ts-node src/index.ts",
@@ -9,7 +9,8 @@
     "prepare": "husky install",
     "prettier:check": "prettier --check ./**/*.ts",
     "prettier:write": "prettier --write ./**/*.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "bin": {
     "oscn": "dist/index.js"
@@ -33,6 +34,8 @@
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
     "@commitlint/config-conventional": "12.1.4",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
     "@types/eslint": "7.2.14",
     "@types/node": "16.0.0",
     "@types/yargs": "17.0.2",
@@ -41,15 +44,19 @@
     "husky": "7.0.1",
     "lint-staged": "11.0.0",
     "prettier": "2.3.2",
+    "semantic-release": "17.4.4",
     "typescript": "4.3.5"
   },
   "main": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smarlhens/opinionated-safe-code-normalizer.git"
+    "url": "https://github.com/smarlhens/opinionated-safe-code-normalizer.git"
   },
   "bugs": {
     "url": "https://github.com/smarlhens/opinionated-safe-code-normalizer/issues"
   },
-  "homepage": "https://github.com/smarlhens/opinionated-safe-code-normalizer#readme"
+  "homepage": "https://github.com/smarlhens/opinionated-safe-code-normalizer#readme",
+  "engines": {
+    "node": ">10.18"
+  }
 }
