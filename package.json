@@ -25,7 +25,7 @@
   "author": "Samuel MARLHENS <samuel.marlhens@gmail.com> (https://smarlhens.github.io)",
   "license": "Apache-2.0",
   "dependencies": {
-    "eslint": "7.31.0",
+    "eslint": "7.32.0",
     "ts-morph": "11.0.3",
     "ts-node": "10.1.0",
     "tslib": "2.3.0",
