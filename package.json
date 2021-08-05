@@ -29,7 +29,7 @@
     "ts-morph": "11.0.3",
     "ts-node": "10.1.0",
     "tslib": "2.3.0",
-    "yargs": "17.0.1"
+    "yargs": "17.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "12.1.4",
