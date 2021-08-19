@@ -57,6 +57,6 @@
   },
   "homepage": "https://github.com/smarlhens/opinionated-safe-code-normalizer#readme",
   "engines": {
-    "node": ">10.18"
+    "node": ">=12"
   }
 }
