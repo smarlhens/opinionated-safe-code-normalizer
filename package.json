@@ -42,7 +42,7 @@
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "husky": "7.0.4",
-    "lint-staged": "11.2.4",
+    "lint-staged": "11.2.6",
     "prettier": "2.4.1",
     "semantic-release": "17.4.7",
     "typescript": "4.4.4"
