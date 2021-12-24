@@ -1,6 +1,6 @@
 {
   "name": "@smarlhens/opinionated-safe-code-normalizer",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "TypeScript opinionated safe code normalizer using ts-morph & ESLint",
   "scripts": {
     "dev": "ts-node src/index.ts",
