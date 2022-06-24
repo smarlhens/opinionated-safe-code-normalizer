@@ -6,9 +6,19 @@
       {
         "preset": "angular",
         "releaseRules": [
-          { "type": "docs", "scope": "README", "release": "patch" },
-          { "type": "refactor", "release": "patch" },
-          { "scope": "no-release", "release": false }
+          {
+            "type": "docs",
+            "scope": "README",
+            "release": "patch"
+          },
+          {
+            "type": "refactor",
+            "release": "patch"
+          },
+          {
+            "scope": "no-release",
+            "release": false
+          }
         ],
         "parserOpts": {
           "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
@@ -29,7 +39,12 @@
         "assets": "release/*.tgz"
       }
     ],
-    "@semantic-release/git",
+    [
+      "@semantic-release/git",
+      {
+        "message": "chore(release): ${nextRelease.version} [skip ci]"
+      }
+    ],
     "@semantic-release/changelog"
   ]
 }
